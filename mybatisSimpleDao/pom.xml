@@ -9,9 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>mybatisDemo</artifactId>
+    <artifactId>mybatisSimpleDao</artifactId>
 
-    <name>mybatisDemo</name>
-
-
+    <name>mybatisSimpleDao</name>
 </project>

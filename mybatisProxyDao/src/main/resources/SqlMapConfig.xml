@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!-- mybatis可以使用properties文件来配置 注意元素之间是有顺序的-->
+    <properties resource="db.properties"/>
+    <!-- mybatis除了自身的类型别名以外，还支持自定义别名-->
+    <typeAliases>
+        <!-- 单个定义别名，这样在对应的配置文件中就不用写全限定名了-->
+        <typeAlias type="com.xiaojihua.pojo.User" alias="user"/>
+        <!-- 批量定义，扫描整个包下的类，别名为类名（首字母大写或小写都可以） -->
+        <!--<package name="com.xiaojihua.pojo"/>-->
+    </typeAliases>
+    <!-- 和spring整合后 environments配置将废除-->
+    <environments default="development">
+        <environment id="development">
+            <!-- 使用jdbc事务管理-->
+            <transactionManager type="JDBC" />
+            <!-- 数据库连接池-->
+            <dataSource type="POOLED">
+                <property name="driver" value="${jdbc.driver}" />
+                <property name="url" value="${jdbc.url}" />
+                <property name="username" value="${jdbc.username}" />
+                <property name="password" value="${jdbc.password}" />
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!-- 和spring整合后 environments配置将废除-->
+    <!--<environments default="development">
+        <environment id="development">
+            &lt;!&ndash; 使用jdbc事务管理&ndash;&gt;
+            <transactionManager type="JDBC" />
+            &lt;!&ndash; 数据库连接池&ndash;&gt;
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver" />
+                <property name="url" value="jdbc:mysql://localhost:3306/mybatis?characterEncoding=utf-8" />
+                <property name="username" value="root" />
+                <property name="password" value="root" />
+            </dataSource>
+        </environment>
+    </environments>-->
+
+
+    <mappers>
+        <!-- resource的路径是相对于classpath-->
+        <mapper resource="com/xiaojihua/mapper/UserMapper.xml"/>
+
+        <!-- 适用于接口代理的方式-->
+        <!-- class方式
+            要求mapper接口名称和mapper映射文件名称相同，且放在同一个目录中
+        -->
+        <mapper class="com.xiaojihua.mapper.UserMapper"/>
+    </mappers>
+</configuration>

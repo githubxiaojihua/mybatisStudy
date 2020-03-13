@@ -1,0 +1,11 @@
+使用mybatis的代理方式开发Dao，可以说没有了Dao
+新建了一个mapper包，里面接口是UserMapper.java
+对应的配置文件是UserMapper.xml，没有了接口的实现，
+其他的与普通原生的mybatis开发一样，要使用这种方式
+需要遵循一些开发规范：
+1、接口的全路径要和映射文件的namespace保持一致
+2、接口的方法名要和映射文件中的statementId保持一致
+3、接口方法的参数类型、返回数据类型要和映射文件中的parameterType、resultType保持一致
+4、接口和映射文件的名字最好保持一致   UserMapper.java  UserMapper.xml
+5、接口和映射文件最好放到同一个目录
+其中1,2,3是必须遵守的。45最好也遵守

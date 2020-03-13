@@ -1,0 +1,4 @@
+mybatis使用原始Dao的开发方式
+1、建立接口
+2、建立实现类，实现类中使用mybatis sqlSession进行操作。
+3、调用实现类
