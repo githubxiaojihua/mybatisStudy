@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="test">
+
+    <!--
+        #{}和${}的区别
+        #{}:占位符 ，如果传入的是字符串，预编译时会自动带上单引号
+        ${}:连接符 ：如果传入的是基础数据类型 大括号中只能写value
+            即${value},如果传入的是pojo或者map类型，大括号中只能写属性名或key名 ${username}
+    -->
+    <!-- 根据id获取用户信息 -->
+    <select id="findUserById" parameterType="int" resultType="com.xiaojihua.pojo.User">
+		select * from user where id = #{id}
+	</select>
+
+    <!-- 根据用户名查询用户信息-->
+    <select id="findUserByUsername" parameterType="string" resultType="com.xiaojihua.pojo.User">
+        select * from user where username like '%${value}%'
+    </select>
+
+    <!-- 添加用户，主键使用自动增长，并返回-->
+    <insert id="insertUser" parameterType="com.xiaojihua.pojo.User">
+        <!-- selectkey 将主键返回到指定字段，-->
+        <selectKey keyProperty="id" resultType="int" order="AFTER">
+            <!-- 配合使用mysql LAST_INSERT_ID() 函数来获取自增主键值-->
+            select LAST_INSERT_ID()
+        </selectKey>
+        insert into user(username,birthday,sex,address)
+        values(#{username},#{birthday},#{sex},#{address})
+    </insert>
+
+    <!-- 添加用户，主键使用UUID指定，并返回 此时需要实体类和表的ID属性类型为String和varchar-->
+    <insert id="insertUserUUID" parameterType="com.xiaojihua.pojo.User">
+        <selectKey order="BEFORE" resultType="string" keyProperty="id">
+            select uuid()
+        </selectKey>
+        insert into user(id,username,birthday,sex,address)
+        values(#{id},#{username},#{birthday},#{sex},#{address})
+    </insert>
+
+    <!-- 删除用户-->
+    <delete id="deleteUserById" parameterType="int">
+        delete from user where id=#{id}
+    </delete>
+
+    <!-- 更改用户 #{}中的属性区分大小写-->
+    <update id="updateUser" parameterType="com.xiaojihua.pojo.User">
+        update user set
+          username=#{username},birthday=#{birthday},sex=#{sex},address=#{address}
+        where id=#{id}
+    </update>
+
+</mapper>
