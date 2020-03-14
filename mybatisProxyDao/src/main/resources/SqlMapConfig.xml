@@ -45,7 +45,7 @@
 
     <mappers>
         <!-- resource的路径是相对于classpath-->
-        <mapper resource="com/xiaojihua/mapper/UserMapper.xml"/>
+        <!--<mapper resource="com/xiaojihua/mapper/UserMapper.xml"/>-->
 
         <!-- 适用于接口代理的方式-->
         <!-- class方式
