@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xiaojihua.mapper.UserMapper">
+
+    <!-- 一对一的关系是站在订单的角度来看的，一张订单对应一个用户-->
+
+    <!-- 一对一关系，查询订单信息，附带订单用户信息，方式一针对查询结果单独定义pojo-->
+    <select id="findOrdersList" resultType="ordersCustomer">
+        SELECT
+        orders.*,
+        user.username,
+        user.address
+        FROM
+        orders,	user
+        WHERE orders.user_id = user.id
+    </select>
+
+    <resultMap id="orderUserResultMap" type="Orders">
+        <id column="id" property="id"/>
+        <result column="user_id" property="user_id"/>
+        <result column="number" property="number"/>
+        <result column="createtime" property="createtime"/>
+        <result column="note" property="note"/>
+        <!-- 配置一对一关联映射-->
+        <!--
+		    property:Orders对象的user属性
+		    javaType：user属性对应 的类型
+		    association：表示进行关联查询单条记录
+		 -->
+        <association property="user" javaType="com.xiaojihua.pojo.User">
+            <!-- column:user表的主键对应的列  property：user对象中id属性-->
+            <id column="user_id" property="id"/>
+            <result column="username" property="username"/>
+            <result column="address" property="address"/>
+        </association>
+    </resultMap>
+    <!-- 一对一关系，查询订单信息，附带订单用户信息，方式一使用resultmap配置一对一关系-->
+    <select id="findOrdersListResultMap" resultMap="orderUserResultMap">
+        SELECT
+			o.id,
+			o.user_id,
+			o.number,
+			o.createtime,
+			o.note,
+			u.username,
+			u.address
+		FROM
+			orders o
+		JOIN `user` u ON u.id = o.user_id
+    </select>
+</mapper>

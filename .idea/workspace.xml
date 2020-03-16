@@ -7,6 +7,7 @@
     <ignored path="$PROJECT_DIR$/mybatisDemo/target/" />
     <ignored path="$PROJECT_DIR$/mybatisSimpleDao/target/" />
     <ignored path="$PROJECT_DIR$/mybatisProxyDao/target/" />
+    <ignored path="$PROJECT_DIR$/../mybatisStudy/mybatisAssociation/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,38 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisProxyDao/pom.xml">
+      <file leaf-file-name="AssociationTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisAssociation/src/test/java/com/xiaojihua/AssociationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SqlMapConfig.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisProxyDao/src/main/resources/SqlMapConfig.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="db.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisProxyDao/src/main/resources/db.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MybatisProxyTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisProxyDao/src/test/java/com/xiaojihua/MybatisProxyTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            <state relative-caret-position="278">
+              <caret line="42" column="7" lean-forward="true" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,29 +29,63 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="总结" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisProxyDao/总结">
+      <file leaf-file-name="Orders.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisAssociation/src/main/java/com/xiaojihua/pojo/Orders.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+            <state relative-caret-position="756">
+              <caret line="64" column="20" lean-forward="true" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
+              <folding>
+                <element signature="e#816#817#0" expanded="true" />
+                <element signature="e#834#835#0" expanded="true" />
+                <element signature="e#871#872#0" expanded="true" />
+                <element signature="e#894#895#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrdersCustomer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisAssociation/src/main/java/com/xiaojihua/pojo/OrdersCustomer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+              <folding>
+                <element signature="e#178#179#0" expanded="true" />
+                <element signature="e#209#210#0" expanded="true" />
+                <element signature="e#257#258#0" expanded="true" />
+                <element signature="e#297#298#0" expanded="true" />
+                <element signature="e#331#332#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#407#408#0" expanded="true" />
+                <element signature="e#445#446#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisProxyDao/src/main/java/com/xiaojihua/mapper/UserMapper.xml">
+        <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisAssociation/src/main/java/com/xiaojihua/mapper/UserMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+            <state relative-caret-position="124">
+              <caret line="36" column="22" lean-forward="true" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisAssociation/src/main/java/com/xiaojihua/pojo/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="5" selection-start-line="5" selection-end-line="6" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="UserMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisProxyDao/src/main/java/com/xiaojihua/mapper/UserMapper.java">
+        <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisAssociation/src/main/java/com/xiaojihua/mapper/UserMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="242">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,20 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisSimpleDao/src/main/resources/sqlmap/User.xml">
+      <file leaf-file-name="SqlMapConfig.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisAssociation/src/main/resources/SqlMapConfig.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="16" column="32" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisProxyDao/src/main/java/com/xiaojihua/pojo/User.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="198">
+              <caret line="12" selection-start-line="12" selection-end-line="13" />
             </state>
           </provider>
         </entry>
@@ -135,11 +134,27 @@
         <option value="$PROJECT_DIR$/mybatisProxyDao/src/main/java/com/xiaojihua/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/mybatisProxyDao/src/main/resources/SqlMapConfig.xml" />
         <option value="$PROJECT_DIR$/mybatisProxyDao/src/test/java/com/xiaojihua/MybatisProxyTest.java" />
+        <option value="$PROJECT_DIR$/mybatisProxyDao/src/main/java/com/xiaojihua/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/mybatisProxyDao/src/test/java/com/xiaojihua/MybatisProxyTest.java" />
+        <option value="$PROJECT_DIR$/mybatisProxyDao/总结" />
+        <option value="$PROJECT_DIR$/mybatisProxyDao/src/main/resources/db.properties" />
+        <option value="$PROJECT_DIR$/mybatisProxyDao/src/main/resources/SqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/mybatisProxyDao/src/main/resources/SqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/../mybatisStudy/mybatisProxyDao/src/main/java/com/xiaojihua/pojo/QueryVo.java" />
         <option value="$PROJECT_DIR$/../mybatisStudy/mybatisProxyDao/src/main/java/com/xiaojihua/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/../mybatisStudy/mybatisProxyDao/src/main/java/com/xiaojihua/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/../mybatisStudy/mybatisProxyDao/src/test/java/com/xiaojihua/MybatisProxyTest.java" />
         <option value="$PROJECT_DIR$/../mybatisStudy/mybatisProxyDao/总结" />
-        <option value="$PROJECT_DIR$/../mybatisStudy/mybatisProxyDao/src/main/resources/db.properties" />
-        <option value="$PROJECT_DIR$/../mybatisStudy/mybatisProxyDao/src/main/resources/SqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/../mybatisStudy/mybatisAssociation/总结" />
+        <option value="$PROJECT_DIR$/../mybatisStudy/mybatisAssociation/src/main/java/xiaojihua/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/../mybatisStudy/mybatisAssociation/src/main/java/com/xiaojihua/pojo/OrdersCustomer.java" />
+        <option value="$PROJECT_DIR$/../mybatisStudy/mybatisAssociation/src/main/resources/SqlMapConfig.xml" />
+        <option value="$PROJECT_DIR$/../mybatisStudy/mybatisAssociation/pom.xml" />
+        <option value="$PROJECT_DIR$/../mybatisStudy/mybatisAssociation/src/main/java/com/xiaojihua/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/../mybatisStudy/mybatisAssociation/src/main/java/com/xiaojihua/mapper/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/../mybatisStudy/mybatisAssociation/src/main/java/com/xiaojihua/pojo/Orders.java" />
+        <option value="$PROJECT_DIR$/../mybatisStudy/mybatisAssociation/src/test/java/com/xiaojihua/AssociationTest.java" />
       </list>
     </option>
   </component>
@@ -166,7 +181,6 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-25" />
     <option name="y" value="10" />
     <option name="width" value="1750" />
     <option name="height" value="970" />
@@ -187,25 +201,25 @@
             <path>
               <item name="mybatisStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="mybatisStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatisProxyDao" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisAssociation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mybatisStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="mybatisStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatisProxyDao" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisAssociation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mybatisStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="mybatisStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatisProxyDao" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisAssociation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mybatisStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="mybatisStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatisProxyDao" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisAssociation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -213,7 +227,7 @@
             <path>
               <item name="mybatisStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="mybatisStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatisProxyDao" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisAssociation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -222,7 +236,7 @@
             <path>
               <item name="mybatisStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="mybatisStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatisProxyDao" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisAssociation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -232,7 +246,7 @@
             <path>
               <item name="mybatisStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="mybatisStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatisProxyDao" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisAssociation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -242,10 +256,50 @@
             <path>
               <item name="mybatisStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="mybatisStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="mybatisProxyDao" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisAssociation" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisAssociation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisAssociation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisAssociation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="xiaojihua" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisProxyDao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mybatisStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisProxyDao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mybatisStudy" type="b2602c69:ProjectViewProjectNode" />
@@ -271,13 +325,18 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="xiaojihua" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="mybatisStudy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mybatisStudy" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatisSimpleDao" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -286,23 +345,27 @@
     <property name="last_opened_file_path" value="H:/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15527344" />
+    <property name="project.structure.side.proportion" value="0.35494506" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="I:\mybatisStudy\mybatisProxyDao\src\main\java\com\xiaojihua\mapper" />
-      <recent name="I:\mybatisStudy\mybatisProxyDao\src\main\resources" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="I:\mybatisStudy\mybatisAssociation\src\main\java\com\xiaojihua\pojo" />
+      <recent name="I:\mybatisStudy\mybatisAssociation\src\main\java\com\xiaojihua" />
+      <recent name="I:\mybatisStudy\mybatisAssociation\src\main\java" />
+      <recent name="I:\mybatisStudy\mybatisAssociation\src\main\resources" />
+      <recent name="I:\mybatisStudy" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.xiaojihua.pojo" />
       <recent name="com.xiaojihua.test" />
       <recent name="pojo" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="I:\mybatisStudy\mybatisProxyDao\src\main\java\com\xiaojihua\mapper" />
       <recent name="I:\mybatisStudy\mybatisProxyDao\src\main\resources" />
-      <recent name="I:\mybatisStudy\mybatisSimpleDao\src\main\resources" />
-      <recent name="I:\mybatisStudy\mybatisDemo" />
-      <recent name="I:\mybatisStudy\mybatisDemo\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -317,23 +380,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.MybatisProxyTest.testMybatisProxy">
+  <component name="RunManager" selected="JUnit.AssociationTest.test2">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="MyBatisTest.testFindUserById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatisDemo" />
+    <configuration name="AssociationTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisAssociation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.xiaojihua.test.*" />
+          <option name="PATTERN" value="com.xiaojihua.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.xiaojihua.test" />
-      <option name="MAIN_CLASS_NAME" value="com.xiaojihua.test.MyBatisTest" />
-      <option name="METHOD_NAME" value="testFindUserById" />
+      <option name="PACKAGE_NAME" value="com.xiaojihua" />
+      <option name="MAIN_CLASS_NAME" value="com.xiaojihua.AssociationTest" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -344,7 +407,30 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MybatisProxyTest.testFindUserByUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AssociationTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatisAssociation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.xiaojihua.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.xiaojihua" />
+      <option name="MAIN_CLASS_NAME" value="com.xiaojihua.AssociationTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="MybatisProxyTest.testFindArray" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatisProxyDao" />
       <extension name="coverage">
         <pattern>
@@ -356,7 +442,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.xiaojihua" />
       <option name="MAIN_CLASS_NAME" value="com.xiaojihua.MybatisProxyTest" />
-      <option name="METHOD_NAME" value="testFindUserByUsername" />
+      <option name="METHOD_NAME" value="testFindArray" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -367,7 +453,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MybatisProxyTest.testInsertUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MybatisProxyTest.testFindBySQLpd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatisProxyDao" />
       <extension name="coverage">
         <pattern>
@@ -379,7 +465,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.xiaojihua" />
       <option name="MAIN_CLASS_NAME" value="com.xiaojihua.MybatisProxyTest" />
-      <option name="METHOD_NAME" value="testInsertUser" />
+      <option name="METHOD_NAME" value="testFindBySQLpd" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -390,7 +476,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="MybatisProxyTest.testMybatisProxy" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MybatisProxyTest.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatisProxyDao" />
       <extension name="coverage">
         <pattern>
@@ -402,30 +488,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.xiaojihua" />
       <option name="MAIN_CLASS_NAME" value="com.xiaojihua.MybatisProxyTest" />
-      <option name="METHOD_NAME" value="testMybatisProxy" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="MybatisSimpleDaoTest.testGetUserById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatisSimpleDao" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.xiaojihua.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.xiaojihua" />
-      <option name="MAIN_CLASS_NAME" value="com.xiaojihua.MybatisSimpleDaoTest" />
-      <option name="METHOD_NAME" value="testGetUserById" />
+      <option name="METHOD_NAME" value="testUpdate" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -475,19 +538,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.MyBatisTest.testFindUserById" />
-      <item itemvalue="JUnit.MybatisSimpleDaoTest.testGetUserById" />
-      <item itemvalue="JUnit.MybatisProxyTest.testMybatisProxy" />
-      <item itemvalue="JUnit.MybatisProxyTest.testFindUserByUsername" />
-      <item itemvalue="JUnit.MybatisProxyTest.testInsertUser" />
+      <item itemvalue="JUnit.MybatisProxyTest.testFindArray" />
+      <item itemvalue="JUnit.MybatisProxyTest.testFindBySQLpd" />
+      <item itemvalue="JUnit.MybatisProxyTest.testUpdate" />
+      <item itemvalue="JUnit.AssociationTest.test1" />
+      <item itemvalue="JUnit.AssociationTest.test2" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MybatisProxyTest.testMybatisProxy" />
-        <item itemvalue="JUnit.MybatisProxyTest.testInsertUser" />
-        <item itemvalue="JUnit.MybatisProxyTest.testFindUserByUsername" />
-        <item itemvalue="JUnit.MybatisSimpleDaoTest.testGetUserById" />
-        <item itemvalue="JUnit.MyBatisTest.testFindUserById" />
+        <item itemvalue="JUnit.AssociationTest.test2" />
+        <item itemvalue="JUnit.AssociationTest.test1" />
+        <item itemvalue="JUnit.MybatisProxyTest.testUpdate" />
+        <item itemvalue="JUnit.MybatisProxyTest.testFindBySQLpd" />
+        <item itemvalue="JUnit.MybatisProxyTest.testFindArray" />
       </list>
     </recent_temporary>
   </component>
@@ -502,44 +565,46 @@
       <option name="presentableId" value="Default" />
       <updated>1584068099213</updated>
       <workItem from="1584068104040" duration="4733000" />
-      <workItem from="1584080041098" duration="1967000" />
+      <workItem from="1584080041098" duration="2836000" />
+      <workItem from="1584183168403" duration="1332000" />
+      <workItem from="1584322227543" duration="12479000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MyBatisTest_testFindUserById - 2020.03.13 at 10h 59m 47s.xml">
-      <configuration name="MyBatisTest.testFindUserById" configurationId="JUnit" />
+    <history-entry file="MybatisProxyTest_testDynSql - 2020.03.16 at 11h 15m 56s.xml">
+      <configuration name="MybatisProxyTest.testDynSql" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisSimpleDaoTest_testGetUserById - 2020.03.13 at 11h 41m 28s.xml">
-      <configuration name="MybatisSimpleDaoTest.testGetUserById" configurationId="JUnit" />
+    <history-entry file="MybatisProxyTest_testDynSql - 2020.03.16 at 11h 16m 53s.xml">
+      <configuration name="MybatisProxyTest.testDynSql" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisProxyTest_testMybatisProxy - 2020.03.13 at 14h 17m 46s.xml">
-      <configuration name="MybatisProxyTest.testMybatisProxy" configurationId="JUnit" />
+    <history-entry file="MybatisProxyTest_testFindArray - 2020.03.16 at 11h 33m 23s.xml">
+      <configuration name="MybatisProxyTest.testFindArray" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisProxyTest_testMybatisProxy - 2020.03.13 at 14h 18m 40s.xml">
-      <configuration name="MybatisProxyTest.testMybatisProxy" configurationId="JUnit" />
+    <history-entry file="MybatisProxyTest_testFindBySQLpd - 2020.03.16 at 11h 42m 51s.xml">
+      <configuration name="MybatisProxyTest.testFindBySQLpd" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisProxyTest_testFindUserByUsername - 2020.03.13 at 14h 21m 28s.xml">
-      <configuration name="MybatisProxyTest.testFindUserByUsername" configurationId="JUnit" />
+    <history-entry file="MybatisProxyTest_testUpdate - 2020.03.16 at 11h 54m 20s.xml">
+      <configuration name="MybatisProxyTest.testUpdate" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisProxyTest_testInsertUser - 2020.03.13 at 14h 24m 42s.xml">
-      <configuration name="MybatisProxyTest.testInsertUser" configurationId="JUnit" />
+    <history-entry file="AssociationTest_test1 - 2020.03.16 at 16h 06m 46s.xml">
+      <configuration name="AssociationTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisProxyTest_testMybatisProxy - 2020.03.13 at 14h 29m 38s.xml">
-      <configuration name="MybatisProxyTest.testMybatisProxy" configurationId="JUnit" />
+    <history-entry file="AssociationTest_test1 - 2020.03.16 at 16h 07m 29s.xml">
+      <configuration name="AssociationTest.test1" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisProxyTest_testMybatisProxy - 2020.03.13 at 14h 39m 17s.xml">
-      <configuration name="MybatisProxyTest.testMybatisProxy" configurationId="JUnit" />
+    <history-entry file="AssociationTest_test2 - 2020.03.16 at 16h 20m 29s.xml">
+      <configuration name="AssociationTest.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisProxyTest_testMybatisProxy - 2020.03.13 at 14h 39m 50s.xml">
-      <configuration name="MybatisProxyTest.testMybatisProxy" configurationId="JUnit" />
+    <history-entry file="AssociationTest_test2 - 2020.03.16 at 16h 21m 03s.xml">
+      <configuration name="AssociationTest.test2" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="MybatisProxyTest_testMybatisProxy - 2020.03.13 at 14h 44m 57s.xml">
-      <configuration name="MybatisProxyTest.testMybatisProxy" configurationId="JUnit" />
+    <history-entry file="AssociationTest_test2 - 2020.03.16 at 16h 21m 50s.xml">
+      <configuration name="AssociationTest.test2" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6700000" />
+    <option name="totallyTimeSpent" value="21380000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -556,10 +621,10 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32796487" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32748538" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.211126" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19839142" />
       <window_info anchor="bottom" id="Statistic" order="7" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -588,6 +653,54 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisProxyDao/src/test/java/com/xiaojihua/MybatisProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisProxyDao/总结">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisProxyDao/src/main/java/com/xiaojihua/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisProxyDao/src/main/java/com/xiaojihua/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisSimpleDao/src/main/resources/sqlmap/User.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="32" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisProxyDao/src/main/java/com/xiaojihua/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisProxyDao/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -650,27 +763,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mybatisStudy/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisDemo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisSimpleDao/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisSimpleDao/src/main/java/com/xiaojihua/pojo/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -720,13 +812,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisProxyDao/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisProxyDao/src/main/java/com/xiaojihua/dao/UserMapper.java" />
     <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisProxyDao/src/main/java/com/xiaojihua/pojo/User.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -742,57 +827,279 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisProxyDao/src/main/java/com/xiaojihua/mapper/UserMapper.java">
+    <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisProxyDao/src/main/resources/db.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="88">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mybatisStudy/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="23" column="6" selection-start-line="23" selection-start-column="6" selection-end-line="23" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisProxyDao/src/main/resources/SqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="54" column="14" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisProxyDao/src/main/java/com/xiaojihua/pojo/QueryVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+            <element signature="e#281#282#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisProxyDao/src/main/java/com/xiaojihua/mapper/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="113" column="26" selection-start-line="113" selection-start-column="16" selection-end-line="113" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisProxyDao/src/main/java/com/xiaojihua/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="24" column="20" lean-forward="true" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisProxyDao/总结">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="21" lean-forward="true" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisProxyDao/src/main/resources/db.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisProxyDao/src/test/java/com/xiaojihua/MybatisProxyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisProxyDao/src/main/resources/SqlMapConfig.xml">
+    <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisProxyDao/总结">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="49" column="23" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+        <state relative-caret-position="264">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisAssociation/总结">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisAssociation/src/main/resources/db.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisAssociation/src/main/java/xiaojihua/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisAssociation/src/main/java/xiaojihua/pojo/QueryVo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisAssociation/src/main/java/xiaojihua/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisAssociation/src/main/java/xiaojihua/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisAssociation/src/main/java/com/xiaojihua/pojo/QueryVo.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisAssociation/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisProxyDao/src/test/java/com/xiaojihua/MybatisProxyTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="71" column="45" selection-start-line="71" selection-start-column="45" selection-end-line="71" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisProxyDao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisDemo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisSimpleDao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mybatisStudy/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="33" column="20" lean-forward="true" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisAssociation/src/main/java/com/xiaojihua/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisAssociation/src/main/resources/SqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" selection-start-line="12" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisAssociation/src/main/java/com/xiaojihua/pojo/OrdersCustomer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <folding>
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#331#332#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#407#408#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisAssociation/src/main/java/com/xiaojihua/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="36" column="22" lean-forward="true" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisAssociation/src/main/java/com/xiaojihua/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="5" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisAssociation/src/main/java/com/xiaojihua/pojo/Orders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="64" column="20" lean-forward="true" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
+          <folding>
+            <element signature="e#816#817#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
+            <element signature="e#871#872#0" expanded="true" />
+            <element signature="e#894#895#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../mybatisStudy/mybatisAssociation/src/test/java/com/xiaojihua/AssociationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="42" column="7" lean-forward="true" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.35494506" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.35494506" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>mybatisStudy</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.35494506" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
@@ -800,6 +1107,18 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.35494506" />
               </list>
             </option>
           </splitter-proportions>

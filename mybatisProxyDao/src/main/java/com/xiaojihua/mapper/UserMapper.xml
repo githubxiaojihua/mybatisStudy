@@ -27,4 +27,107 @@
         values(#{username},#{birthday},#{sex},#{address})
     </insert>
 
+    <!-- 输入参数为map类型-->
+    <select id="findUserByMap" parameterType="map" resultType="user">
+        SELECT * FROM USER t WHERE t.username LIKE '%${username}%' AND sex=#{sex} AND address=#{address}
+    </select>
+
+    <!-- 输入参数为pojo包装类-->
+    <select id="findUserByVo" parameterType="com.xiaojihua.pojo.QueryVo" resultType="user">
+        select * from user where username like '%${user.username}%'
+    </select>
+
+    <!-- 输出类型为基础类型，包括string-->
+    <select id="findCount" resultType="int">
+        select count(*) from user
+    </select>
+
+    <!-- 根据id获取用户信息，输出类型为map -->
+    <select id="findUserByIdMap" parameterType="int" resultType="map">
+		select * from user where id = #{id}
+	</select>
+
+    <!-- 设置resultMap
+         如果某一个列的名称和属性一致，则写于不写不影响
+    -->
+    <resultMap id="userMap" type="user">
+        <!-- 对应id属性-->
+        <id property="id" column="id"></id>
+        <!-- 对应其他属性-->
+        <result property="username" column="user_name"/>
+        <result property="sex" column="gender"/>
+        <result property="birthday" column="birthday"/>
+        <result property="address" column="address"/>
+    </resultMap>
+    <!-- 使用resultmap来解决表列和属性的对应关系问题 注意此时没有resultType只有resultMap-->
+    <select id="findUserResultMap" parameterType="int" resultMap="userMap">
+		select * from user_copy where id = #{id}
+	</select>
+
+    <!-- 动态语句的判断 where去掉多余的and-->
+    <select id="findListByUser" parameterType="user" resultType="user">
+        select * from user
+        <where>
+            <if test="username != null and username != ''">
+                and username like '%${username}%'
+            </if>
+            <if test="sex != null and sex != ''">
+                and sex like #{sex}
+            </if>
+            <if test="address != null and address != ''">
+                and address like #{address}
+            </if>
+        </where>
+    </select>
+
+    <!-- 使用foreach来循环List和数组-->
+    <select id="findListByArray" parameterType="com.xiaojihua.pojo.QueryVo" resultType="user">
+        select * from user where id in
+        <foreach collection="ids" open="(" close=")" separator="," item="id">
+            #{id}
+        </foreach>
+    </select>
+
+    <!-- 定义一个SQL片段 -->
+    <sql id="findUserSql">
+        <where>
+            <if test="username != null and username != ''">
+                and username like '%${username}%'
+            </if>
+            <if test="sex != null and sex != ''">
+                and sex like #{sex}
+            </if>
+            <if test="address != null and address != ''">
+                and address like #{address}
+            </if>
+        </where>
+    </sql>
+
+    <!-- 使用SQL片段-->
+    <select id="findListBySQLpd" parameterType="user" resultType="user">
+        select * from user
+        <!-- 引入SQL片段-->
+        <include refid="findUserSql"/>
+    </select>
+
+    <!-- 测试set标签在update标签中的使用，set标签去掉多余的逗号-->
+    <update id="updateUser" parameterType="user">
+        update user
+        <set>
+            <if test="username != null and  username != ''">
+                username = #{username},
+            </if>
+            <if test="sex != null and  sex != ''">
+                sex = #{sex},
+            </if>
+            <if test="address != null and  address != ''">
+                address = #{address},
+            </if>
+            <if test="birthday != null and  birthday != ''">
+                birthday = #{birthday},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
 </mapper>

@@ -11,6 +11,7 @@
         <module>mybatisDemo</module>
         <module>mybatisSimpleDao</module>
         <module>mybatisProxyDao</module>
+        <module>mybatisAssociation</module>
     </modules>
     <packaging>pom</packaging>
 
