@@ -30,6 +30,7 @@
     </bean>
     <!-- 使用扫描包的形式来创建mapper代理对象 -->
     <!-- 每个mapper代理对象的id就是类名，首字母小写-->
+    <!-- 正是配置了这里的包扫描所以才可以去掉原来sqlMapConfig.xml中的mapper部分-->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <property name="basePackage" value="com.xiaojihua.mapper"/>
     </bean>
