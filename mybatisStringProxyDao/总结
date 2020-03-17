@@ -1,0 +1,5 @@
+mybatis与spring集成，用代理的方式开发DAO
+
+要遵循mybatis接口代理编程的相关5个规范
+在applicationContext.xml中要配置sqlSessionFactory和MapperScannerConfigurer（用来生成mapper代理）的
+与原生mybatis代理开发不同的是不在需要sqlMapConfig.xml以及里面的Mappers部分

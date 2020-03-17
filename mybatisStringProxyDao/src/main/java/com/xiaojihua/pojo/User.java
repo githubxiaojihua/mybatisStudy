@@ -2,7 +2,6 @@ package com.xiaojihua.pojo;
 
 import java.io.Serializable;
 import java.util.Date;
-import java.util.List;
 
 public class User implements Serializable {
 	private int id;
@@ -10,9 +9,6 @@ public class User implements Serializable {
 	private String sex;// 性别
 	private Date birthday;// 生日
 	private String address;// 地址
-
-	// mybatis一对多关系的实现，一个用户对应多个订单
-	private List<Orders> orders;
 
 	public int getId() {
 		return id;
@@ -44,24 +40,13 @@ public class User implements Serializable {
 	public void setAddress(String address) {
 		this.address = address;
 	}
-
-	public List<Orders> getOrders() {
-		return orders;
-	}
-
-	public void setOrders(List<Orders> orders) {
-		this.orders = orders;
-	}
-
 	@Override
 	public String toString() {
-		return "User{" +
-				"id=" + id +
-				", username='" + username + '\'' +
-				", sex='" + sex + '\'' +
-				", birthday=" + birthday +
-				", address='" + address + '\'' +
-				", orders=" + orders +
-				'}';
+		return "User [id=" + id + ", username=" + username + ", sex=" + sex + ", birthday=" + birthday + ", address="
+				+ address + "]";
 	}
+
+	
+	
+
 }

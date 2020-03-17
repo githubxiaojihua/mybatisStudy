@@ -3,6 +3,7 @@ package com.xiaojihua;
 import com.xiaojihua.mapper.UserMapper;
 import com.xiaojihua.pojo.Orders;
 import com.xiaojihua.pojo.OrdersCustomer;
+import com.xiaojihua.pojo.User;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
@@ -49,4 +50,21 @@ public class AssociationTest {
         System.out.println(ordersList);
         session.close();
     }
+
+    /**
+     * 一对多关系的方式
+     * 使用resultMap的collection配置一对多的关系
+     * User中增加了List<></>
+     * @throws Exception
+     */
+    @Test
+    public void test3() throws Exception {
+        SqlSession session = sqlSessionFactory.openSession();
+        UserMapper mapper = session.getMapper(UserMapper.class);
+        List<User> userList = mapper.getUserOrderList();
+        System.out.println(userList);
+        session.close();
+    }
+
+
 }

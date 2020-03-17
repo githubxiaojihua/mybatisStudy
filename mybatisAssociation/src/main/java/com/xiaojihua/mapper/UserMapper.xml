@@ -50,4 +50,35 @@
 			orders o
 		JOIN `user` u ON u.id = o.user_id
     </select>
+
+    <!-- 使用resultmap的collection做一对多的映射-->
+    <resultMap id="userOrdersResultMap" type="user">
+        <id column="id" property="id"/>
+        <result column="username" property="username"/>
+        <result column="birthday" property="birthday"/>
+        <result column="sex" property="sex"/>
+        <result column="address" property="address"/>
+        <!-- 一对多关联映射 -->
+        <collection property="orders" ofType="orders">
+            <id column="oid" property="id"/>
+            <!--用户id已经在user对象中存在，此处可以不设置-->
+            <!-- <result property="userId" column="id"/> -->
+            <result column="number" property="number"/>
+            <result column="createtime" property="createtime"/>
+            <result column="note" property="note"/>
+        </collection>
+    </resultMap>
+
+    <!-- 一对多的映射查询，查询一个用户并且附带用户下的订单-->
+    <select id="getUserOrderList" resultMap="userOrdersResultMap">
+        SELECT
+		u.*, o.id oid,
+		o.number,
+		o.createtime,
+		o.note
+		FROM
+		`user` u
+		LEFT JOIN orders o ON u.id = o.user_id
+    </select>
+
 </mapper>

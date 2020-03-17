@@ -11,6 +11,8 @@
         <module name="mybatisDemo" />
         <module name="mybatisProxyDao" />
         <module name="mybatisSimpleDao" />
+        <module name="mybatisSpringTranditionDao" />
+        <module name="mybatisStringProxyDao" />
       </profile>
     </annotationProcessing>
   </component>
