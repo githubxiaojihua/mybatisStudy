@@ -32,6 +32,8 @@ public class MyBatisTest {
     }
 
     // 根据 id查询用户信息
+    // SqlSession为非线程安全的因此放在方法中调用比较合适
+    // 禁止作为共享变量
     @Test
     public void testFindUserById() {
         // 数据库会话实例

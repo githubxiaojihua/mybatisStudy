@@ -69,7 +69,7 @@ public class MybatisProxyTest {
     public void testSelectByMap() throws Exception {
         SqlSession session = sqlSessionFactory.openSession();
         UserMapper mapper = session.getMapper(UserMapper.class);
-        Map<String,Object> map = new HashMap<>();
+        Map<String,Object> map = new HashMap<String,Object>();
         map.put("username","张");
         map.put("sex","1");
         map.put("address","河南郑州");
